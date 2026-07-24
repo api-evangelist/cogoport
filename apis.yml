@@ -1,7 +1,13 @@
 aid: cogoport
 name: Cogoport
-description: 'Cogoport is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Cogoport is a global logistics and supply chain platform offering freight
+  booking, customs, trade finance, and supply chain visibility for businesses across
+  ocean, air, and inland transport. It provides ocean (FCL and LCL) and air freight
+  booking with real-time rate discovery, customs clearance and compliance support,
+  trade finance including invoice financing and pay-later solutions, end-to-end shipment
+  tracking, and logistics tools such as an HS Code Finder, container trackers, and
+  shipping cost calculators. Cogoport is backed by Accel and headquartered in India,
+  serving importers and exporters worldwide.'
 url: https://raw.githubusercontent.com/api-evangelist/cogoport/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +15,30 @@ x-backed-by:
 - accel
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.cogoport.com/favicon.ico
 tags:
 - Company
 - Consumer
+- Logistics
+- Freight
+- Supply Chain
+- Shipping
+- Trade Finance
+- Customs
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +47,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.cogoport.com
+  url: https://www.cogoport.com
+- type: Blog
+  url: https://www.cogoport.com/en-IN/blogs
+- type: Support
+  url: https://www.cogoport.com/contact-us
+- type: SignUp
+  url: https://www.cogoport.com/signup
+- type: TermsOfService
+  url: https://www.cogoport.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.cogoport.com/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/cogoport
+- type: LLMsTxt
+  url: llms/cogoport-llms.txt
+- type: DomainSecurity
+  url: security/cogoport-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

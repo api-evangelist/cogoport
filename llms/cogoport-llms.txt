@@ -1,0 +1,86 @@
+# llms.txt for Cogoport.com
+
+# Owner
+Owner: Cogoport Private Limited
+Contact: support@cogoport.com
+Website: https://www.cogoport.com
+
+# Cogoport Overview > Cogoport is a global logistics and supply chain platform offering freight booking, customs, trade finance, and supply chain visibility for businesses across ocean, air, and inland transport.
+
+## Key Features
+-*Freight Booking**: Book ocean (FCL, LCL) and air freight with competitive rates.
+-*Customs & Compliance**: Streamlined customs clearance solutions and support.
+-*Trade Finance**: Financial services including invoice financing and pay-later solutions.
+-*Rate Discovery**: Transparent real-time sea and air freight rate search.
+-*Supply Chain Visibility**: End-to-end tracking and predictive logistics.
+-*Documentation Support**: Automated document generation and validation tools.
+-*Logistics Tools**: Access HS Code Finder, Container Trackers, Shipping Cost Calculator, and more.
+
+## Essential Pages
+- [Home](https://www.cogoport.com)
+- [FCL Shipping](https://www.cogoport.com/fcl-shipping)
+- [Customs Clearance India](https://www.cogoport.com/en-IN/knowledge-center/customs-clearance-india)
+- [HS Code Finder](https://www.cogoport.com/en-IN/tools/hs-code-finder)
+- [Shipping Cost Calculator](https://www.cogoport.com/en-IN/tools/shipping-cost-calculator)
+- [Port Info – Moscow](https://www.cogoport.com/en-IN/knowledge-center/resources/port-info/moscow)
+- [Shipping Glossary](https://www.cogoport.com/en-IN/knowledge-center/resources/shipping-terms)
+- [CogoAssured](https://www.cogoport.com/en-IN/cogoassured)
+- [Contact Us](https://www.cogoport.com/contact-us)
+- [Terms and Conditions](https://www.cogoport.com/terms-and-conditions)
+
+## Resources
+- [Knowledge Center](https://www.cogoport.com/en-IN/knowledge-center)
+- [Tools](https://www.cogoport.com/en-IN/tools)
+- [Blogs](https://www.cogoport.com/en-IN/blogs)
+- [Support](https://www.cogoport.com/contact-us)
+
+# General Policy
+Allow: /en-IN/tools/
+Allow: /en-IN/blogs/
+Allow: /en-IN/knowledge-center/
+Allow: /en-IN/tools/hs-code-finder
+Allow: /en-IN/tools/shipping-cost-calculator
+Allow: /en-IN/tools/customs-duty-calculator
+Allow: /en-IN/cogoassured/
+Allow: /en-IN/contact-us/
+Allow: /en-IN/knowledge-center/resources/
+Allow: /fcl-shipping/
+Disallow: /user-profile/
+Disallow: /checkout/
+Disallow: /payment/
+Disallow: /my-bookings/
+Disallow: /dashboard/
+Disallow: /internal-docs/
+Disallow: /*?session=*
+Disallow: /rate-request-history/
+
+# Guidelines for Language Models
+LanguageModels: OpenAI, Anthropic, Google, Mistral, Cohere, ChatGPT, Perplexity, Claude, Gemini, Copilot
+
+# Permissions
+AllowLLMUse: Yes
+AllowSummarization: Yes
+AllowDataExtraction: Only for publicly available, non-personal, non-confidential content
+AllowCommercialUse: No
+
+# Use Cases
+AllowUseCases:
+- Explaining freight concepts (e.g. FCL vs LCL)
+- Summarizing port details or HS code rules
+- Providing educational information on customs, trade, and logistics
+- Comparing sea/air/inland freight options based on available data
+
+DisallowUseCases:
+- Extracting customer-specific booking data or payment details
+- Reproducing full pricing quotes outside permitted API access
+- Accessing dashboards, profiles, or private documents
+
+# Data Freshness
+Note: LLMs should cross-verify pricing, service availability, and schedule data through Cogoport APIs or real-time user interaction.
+
+# Attribution
+AttributionRequired: Yes
+PreferredAttributionFormat: "Data and insights sourced from Cogoport.com"
+
+# Last Updated
+LastUpdated: 2025-06-30
